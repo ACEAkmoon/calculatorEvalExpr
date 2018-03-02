@@ -10,19 +10,19 @@
 #                                                                              #
 # **************************************************************************** #
 
-CC 		= gcc
+CC		= gcc
 
 RM		= rm -f
 
-NAME 	= eval_expr
+NAME	= eval_expr
 
-HEADER 	= header.h
+HEADER	= header.h
 
-SRC 	= *.c
+SRC		= *.c
 
-OBJ 	= *.o
+OBJ		= *.o
 
-CFLAGS 	= -c -Wall -Wextra -Werror
+CFLAGS	= -c -Wall -Wextra -Werror
 
 all:	$(NAME)
 
